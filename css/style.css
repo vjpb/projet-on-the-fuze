@@ -38,7 +38,7 @@
   right: 25%;
 }
 .polaroid-2 {
-  background-image: url("/assets/images/first-section/homepage-polaroids-rigth.png");
+  background-image: url("/assets/images/first-section/homepage-polaroids-right.png");
   width: 31%;
   right: 0%;
 }
@@ -112,7 +112,7 @@
 .text-banner-article {
   padding: 0;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 500px) and (max-width: 800px) {
   .text-banner-article {
     padding-right: 24px;
   }
@@ -141,14 +141,14 @@
 }
 
 @media only screen and (min-width: 300px) and (max-width: 500px) {
-  .text-banner-title div img{
+  .text-banner-title div img {
     width: 40%;
   }
 }
 @media only screen and (min-width: 1320px) and (max-width: 1920px) {
   .form-banner {
     width: 464px;
-    margin-left: 68px;;
+    margin-left: 68px;
   }
 }
 .form {
@@ -161,11 +161,13 @@
   border: 0px solid;
 }
 .button {
-  background: #a288a8;
-  border: 0px solid;
   color: #fff;
   font-family: myFirstFontBlack;
   font-size: 16px;
+}
+.btn-banner{
+  background: #a288a8;
+  border: 0px solid;
   padding: 14px 51px;
   width: 164px;
   height: 50px;
@@ -182,9 +184,75 @@
 /* End header section */
 
 /* Start main section */
+.button-left{
 
+}
+.button-right{
+  
+}
 /* End main section */
 
 /* Start section footer */
-
+.background-footer {
+  background: black;
+  height: 487px;
+}
+.text-footer-title {
+  padding: 42px 0 30px 0;
+}
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .text-footer-title img {
+    width: 30%;
+  }
+}
+.copyright {
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.social-icons{
+  margin: 0;
+}
+@media only screen and (min-width: 800px) and (max-width: 1440px) {
+  .text-footer-title,
+  .copyright,
+  .image-bottom {
+    display: none;
+    
+  }
+  .social-icons{
+    padding: 240px 0 139px 0;
+  }
+}
+.icon-facebook {
+  background-image: url(/assets/images/third-secion/facebook.svg);
+}
+.icon-facebook:hover,
+.icon-facebook:focus {
+  background-image: url(/assets/images/third-secion/facebook-over.svg);
+  transition: 0.9s;
+}
+.icon-youtube {
+  background-image: url(/assets/images/third-secion/youtube.svg);
+}
+.icon-youtube:hover,
+.icon-youtube:focus {
+  background-image: url(/assets/images/third-secion/youtube-over.svg);
+  transition: 0.9s;
+}
+.icon-linkedin {
+  background-image: url(/assets/images/third-secion/linkedin.svg);
+}
+.icon-linkedin:hover,
+.icon-linkedin:focus {
+  background-image: url(/assets/images/third-secion/linkedin-over.svg);
+  transition: 0.9s;
+}
 /* End section footer */

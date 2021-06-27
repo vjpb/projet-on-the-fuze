@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
-    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- Header-->
@@ -98,10 +98,11 @@
               </div>
 
               <div class="col-12">
-                <button type="submit" class="button">SUBMIT</button>
+                <button type="submit" class="button btn-banner">SUBMIT</button>
               </div>
             </form>
           </div>
+          
         </div>
       </div>
     </header>
@@ -110,11 +111,10 @@
     <!-- Main-->
     <main>
       <section>
-        <div></div>
         <div class="container">
           <div class="row">
             <div class="col-md-6">
-              <h3>PETER BREAKS THROUGH</h3>
+              <h3 class="">PETER BREAKS THROUGH</h3>
               <article>
                 All children, except one, grow up. They soon know that they will
                 grow up, and the way Wendy knew was this. One day when she was
@@ -126,10 +126,10 @@
                 henceforth Wendy knew that she must grow up.
               </article>
               <div class="col-12">
-                <button type="button" class="btn btn-primary btn-lg">
+                <button type="button" class="button button-left">
                   Lorem Ipsum
                 </button>
-                <button type="button" class="btn btn-outline-secondary btn-lg">
+                <button type="button" class="button button-right">
                   Lorem Ipsum
                 </button>
               </div>
@@ -199,12 +199,23 @@
     </main>
     <!-- /Main-->
     <!-- Footer -->
-    <footer>
+    <footer class="background-footer position-relative">
       <div class="container">
-        <div class="row">
-          <div class="col-2"></div>
-          <div class="col-2"></div>
-          <div class="col-2"></div>
+        <div class="col-sm-12 text-center text-footer-title">
+          <img src="/assets/images/third-secion/Lorem-Ipsum.svg" alt="title footer">
+        </div>
+        <div class="position-absolute bottom-0 start-50 translate-middle-x image-bottom">
+          <img src="/assets/images/third-secion/three-lines.png" alt="3 three lines" />
+        </div>
+        <div class="col col-sm-12 pt-4 pb-4 copyright">
+          <p>&copy 2021 Lorem Ipsum . All Rights Reserved.</p>
+        </div>
+      </div>
+      <div class="row justify-content-center text-center social-icons">
+        <div class="col-12">
+          <span class="icon icon-facebook"></span>
+          <span class="icon icon-youtube"></span>
+          <span class="icon icon-linkedin"></span>
         </div>
       </div>
     </footer>
