@@ -19,7 +19,6 @@
             <div class="col-sm-12 text-center">
               <img src="/assets/images/third-secion/Lorem-Ipsum.svg" alt="title">
             </div>
-            </h1>
           </div>
           <div class="col-md-6 text-banner-article">
             <h2>
@@ -102,7 +101,6 @@
               </div>
             </form>
           </div>
-          
         </div>
       </div>
     </header>
@@ -112,7 +110,7 @@
     <main>
       <section>
         <div class="image-container-top">
-            <img src="/assets/images/second-section/abstract-top.png" alt="image abstract top" />
+            <div class="image-second-section-container-top"></div>
         </div>
         <div class="background-section-top">    
           <div class="image-second-section-right">
@@ -135,7 +133,7 @@
                   <div class="container-fluid pt-4 button-second-section">
                     <div class="row">
                       <div class="col-md-5 pt-3">
-                        <button type="button" class="button button-left">
+                        <button type="button" id="buttonForm" class="button button-left">
                           Lorem Ipsum
                         </button>
                       </div>
@@ -157,7 +155,7 @@
       </section>
       <section>
         <div class="image-container-middle">
-          <img src="/assets/images/second-section/abstract-middle.png" alt="image abstract top" />
+          <div class="image-second-section-container-middle"></div>
         </div>
         <div class="city-section">    
           <div class="background-section-bottom"></div>
@@ -255,6 +253,87 @@
     </footer>
     <!-- /Footer -->
 
+    <!-- Modal-form -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="container">
+          <div class="row banner">
+            <div class="col-md-12 text-banner-form">
+              <form class="row g-3 form-banner">
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form"
+                    id="inputFirstName"
+                    placeholder="First Name*"
+                    aria-label="First name"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form"
+                    id="inpuLastName"
+                    placeholder="Last Name*"
+                    aria-label="Last name"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="email"
+                    class="form"
+                    id="inputEmail"
+                    placeholder="Email*"
+                    aria-label="Last name"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form"
+                    id="inputJobTitle"
+                    placeholder="Job Title*"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form"
+                    id="inputCompany"
+                    placeholder="Company Name"
+                  />
+                </div>
+                <div class="col-md-6">
+                  <input
+                    type="text"
+                    class="form"
+                    id="inputWebsite"
+                    placeholder="Website URL"
+                  />
+                </div>
+
+                <div class="col-md-12">
+                  <input
+                    type="number"
+                    class="form"
+                    id="inputRevenue"
+                    placeholder="Annual Revenue"
+                  />
+                </div>
+
+                <div class="col-12">
+                  <button type="submit" class="button btn-banner">SUBMIT</button>
+                </div>
+              </form>
+            </div>      
+          </div>
+        </div>
+      </div>
+    </div>  
+    <!-- /Modal-form -->
+
     <script src="js/bootstrap.js"></script>
+    <script src="js/modal-form.js"></script>
   </body>
 </html>
