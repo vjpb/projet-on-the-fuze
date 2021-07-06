@@ -10,22 +10,23 @@
   <body>
     <!-- Header-->
     <header class="top-content">
-      <div class="polaroid-3 pictures-banner"></div>
-      <div class="rocket-image pictures-banner"></div>
-      <div class="polaroid-2 pictures-banner"></div>
       <div class="container">
-        <div class="row banner">
-          <div class="col-sm-12 text-center text-banner-title">
-            <div class="col-sm-12 text-center">
-              <img src="/assets/images/third-secion/Lorem-Ipsum.svg" alt="title">
-            </div>
+        <div class="polaroid-left pictures-banner"></div>
+        <div class="rocket-image pictures-banner"></div>
+        <div class="polaroid-right pictures-banner"></div>
+        <div class="banner row align-items-center justify-content-around">
+          <div class="text-banner-title col-12 text-center">
+            <img
+              src="assets/images/third-section/lorem-ipsum.svg"
+              alt="title banner"
+            />
           </div>
-          <div class="col-md-6 text-banner-article">
-            <h2>
+          <div class="text-banner-article col-md-6 col-lg-6">
+            <h1>
               The way Mr. <br />
               Darling won <br />
               her was this
-            </h2>
+            </h1>
             <p class="pt-4 pb-4">
               the many gentlemen who had been boys when she was a girl
               discovered simultaneously that they loved her, and they all ran to
@@ -33,71 +34,72 @@
               nipped in first, and so he got her.
             </p>
           </div>
-          <div class="col-md-6 text-banner-form">
-            <form class="row g-3 form-banner">
-              <div class="col-md-6">
+          <div class="text-banner-form col-md-6 pb-md-4 col-lg-6">
+            <form
+              class="form-banner row g-3 needs-validation"
+              id="success"
+              novalidate
+            >
+              <div class="col-md-6 pb-2">
                 <input
                   type="text"
-                  class="form"
-                  id="inputFirstName"
+                  class="form form-control"
+                  id="validationFirstName"
+                  onkeypress="return isLetterKey(event)"
                   placeholder="First Name*"
-                  aria-label="First name"
+                  title="The first name cannot contain numbers or symbols (!@#$%^&)"
+                  required
                 />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 pb-2">
                 <input
                   type="text"
-                  class="form"
-                  id="inpuLastName"
+                  class="form form-control"
+                  id="validationLastName"
+                  onkeypress="return isLetterKey(event)"
                   placeholder="Last Name*"
-                  aria-label="Last name"
+                  title="The last name cannot contain numbers or symbols (!@#$%^&)"
+                  required
                 />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 pb-2">
                 <input
                   type="email"
-                  class="form"
-                  id="inputEmail"
+                  class="form form-control"
+                  id="validationEmail"
                   placeholder="Email*"
-                  aria-label="Last name"
+                  title="Valid E-mail name@example.com"
+                  required
                 />
               </div>
-              <div class="col-md-6">
+              <div class="col-md-6 pb-2">
                 <input
                   type="text"
-                  class="form"
-                  id="inputJobTitle"
+                  class="form form-control"
+                  id="validationJobTitle"
+                  onkeypress="return isLetterKey(event)"
                   placeholder="Job Title*"
+                  title="The job title cannot contain numbers or symbols (!@#$%^&)"
+                  required
                 />
               </div>
-              <div class="col-md-6">
-                <input
-                  type="text"
-                  class="form"
-                  id="inputCompany"
-                  placeholder="Company Name"
-                />
+              <div class="col-md-6 pb-2">
+                <input type="text" class="form" placeholder="Company Name" />
               </div>
-              <div class="col-md-6">
-                <input
-                  type="text"
-                  class="form"
-                  id="inputWebsite"
-                  placeholder="Website URL"
-                />
+              <div class="col-md-6 pb-2">
+                <input type="text" class="form" placeholder="Website URL" />
               </div>
-
-              <div class="col-md-12">
-                <input
-                  type="number"
-                  class="form"
-                  id="inputRevenue"
-                  placeholder="Annual Revenue"
-                />
+              <div class="col-md-12 pb-2">
+                <input type="text" class="form" placeholder="Annual Revenue" />
               </div>
-
-              <div class="col-12">
-                <button type="submit" class="button btn-banner">SUBMIT</button>
+              <div class="col-12 pb-3">
+                <button
+                  type="submit"
+                  id="successButton"
+                  class="button btn-form"
+                >
+                  SUBMIT
+                </button>
               </div>
             </form>
           </div>
@@ -110,111 +112,125 @@
     <main>
       <section>
         <div class="image-container-top">
-            <div class="image-second-section-container-top"></div>
+          <div class="image-second-section-container-top"></div>
         </div>
-        <div class="background-section-top">    
+        <div class="background-section-top">
           <div class="image-second-section-right">
             <div class="container">
-              <div class="row banner-second-section align-items-center justify-content-center">
-                <div class="col-md-7 pt-3 text-second-section">
-                  <h2 class="title-second-section">
-                    Peter breaks through
-                  </h2>
+              <div
+                class="
+                  banner-second-section
+                  row
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <div class="text-second-section col-md-7 pt-3">
+                  <h2 class="title-second-section">Peter breaks through</h2>
                   <article class="article-second-section">
-                    All children, except one, grow up. They soon know that they will
-                    grow up, and the way Wendy knew was this. One day when she was
-                    two years old she was playing in a garden, and she plucked
-                    another flower and ran with it to her mother. I suppose she must
-                    have looked rather delightful, for Mrs. Darling put her hand to
-                    her heart and cried, “Oh, why can’t you remain like this for
-                    ever!” This was all that passed between them on the subject, but
-                    henceforth Wendy knew that she must grow up.
+                    All children, except one, grow up. They soon know that they
+                    will grow up, and the way Wendy knew was this. One day when
+                    she was two years old she was playing in a garden, and she
+                    plucked another flower and ran with it to her mother. I
+                    suppose she must have looked rather delightful, for Mrs.
+                    Darling put her hand to her heart and cried, “Oh, why can’t
+                    you remain like this for ever!” This was all that passed
+                    between them on the subject, but henceforth Wendy knew that
+                    she must grow up.
                   </article>
-                  <div class="container-fluid pt-4 button-second-section">
+                  <div class="button-second-section container-fluid pt-4">
                     <div class="row">
                       <div class="col-md-5 pt-3">
-                        <button type="button" id="buttonForm" class="button button-left">
+                        <button
+                          type="button"
+                          id="buttonForm"
+                          class="button button-left"
+                        >
                           Lorem Ipsum
                         </button>
                       </div>
-                      <div class="col-md-6 ps-md-4 pt-3">
-                        <button type="button" class="button button-right">
+                      <div class="col-md-6 pb-2 ps-md-4 pt-3">
+                        <button type="button" class="button-right button">
                           Lorem Ipsum
                         </button>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-5 image-second-section pt-4">
-                  <img src="assets/images/second-section/rectangle.png" alt="">
+                <div class="image-second-section col-md-5 pt-4">
+                  <img
+                    src="assets/images/second-section/rectangle.png"
+                    alt="image second section people working"
+                  />
                 </div>
               </div>
             </div>
           </div>
-        </div>  
+        </div>
       </section>
       <section>
         <div class="image-container-middle">
           <div class="image-second-section-container-middle"></div>
         </div>
-        <div class="city-section">    
+        <div class="image-city-section">
           <div class="background-section-bottom"></div>
           <div class="image-second-section-left"></div>
           <div class="image-second-section-bottom"></div>
           <div>
             <div class="container">
-              <div class="row" >
-                <div class="col-md-12 text-center  second-section-bottom">
-                  <h2 class="title-second-section">
-                    Of course we can
-                  </h2>
+              <div class="row">
+                <div class="second-section-bottom col-md-12 text-center">
+                  <h2 class="title-second-section">Of course we can</h2>
                   <article class="article-second-section">
-                    For a week or two after Wendy came it was doubtful whether they
-                    would <br> be able to keep her, as she was another mouth to feed. Mr.
-                    Darling was <br> frightfully proud of her, but he was very
-                    honourable.
+                    For a week or two after Wendy came it was doubtful whether
+                    they would <br />
+                    be able to keep her, as she was another mouth to feed. Mr.
+                    Darling was <br />
+                    frightfully proud of her, but he was very honourable.
                   </article>
                 </div>
-                <div class="row card-row">
-                  <div class="pt-5 col-md-6 col-lg-4 text-center card-left">
-                    <div class="card card-section box">
+                <div class="row card-row-section">
+                  <div class="col-md-6 col-lg-4 pt-5 text-center">
+                    <div class="card-section box-card card">
                       <div class="top-image-card"></div>
-                      <div class="card-body card-section">
+                      <div class="card-section card-body">
                         <h5 class="card-title">Lorem Ipsum</h5>
                         <small class="card-subtitle">Lorem Ipsum</small>
                         <p class="card-text">
-                          Mrs. Darling consulted Mr. Darling, but he smiled pooh-pooh. 
-                          “Mark my words,” he said, “it is some nonsense Nana has been 
-                          putting into their heads.
+                          Mrs. Darling consulted Mr. Darling, but he smiled
+                          pooh-pooh. “Mark my words,” he said, “it is some
+                          nonsense Nana has been putting into their heads.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="pt-5 col-md-6 col-lg-4 text-center card-center">
-                    <div class="card card-section box">
+                  <div class="col-md-6 col-lg-4 pt-5 text-center">
+                    <div class="card-section box-card card">
                       <div class="top-image-card"></div>
-                      <div class="card-body card-section">
+                      <div class="card-section card-body">
                         <h5 class="card-title">Lorem Ipsum</h5>
                         <small class="card-subtitle">Lorem Ipsum</small>
                         <p class="card-text">
-                          I have one pound seventeen here, and two and six at the
-                          office; I can cut off my coffee at the office, say ten
-                          shillings, making two nine and six, with your eighteen and
-                          three makes three nine seven, with five naught naught in my
+                          I have one pound seventeen here, and two and six at
+                          the office; I can cut off my coffee at the office, say
+                          ten shillings, making two nine and six, with your
+                          eighteen and three makes three nine seven, with five
+                          naught naught in my
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div class="pt-5 col-md-6 col-lg-4 text-center card-right">
-                    <div class="card card-section box">
+                  <div class="card-right col-md-6 col-lg-4 text-center pt-5">
+                    <div class="card-section box-card card">
                       <div class="top-image-card"></div>
                       <div class="card-body card-section">
                         <h5 class="card-title">Lorem Ipsum</h5>
                         <small class="card-subtitle"> Lorem Ipsum </small>
                         <p class="card-text">
-                          “It is so naughty of him not to wipe his feet,” Wendy said,
-                          sighing. She was a tidy child. She explained in quite a
-                          matter-of-fact way that she thought Peter sometimes.
+                          “It is so naughty of him not to wipe his feet,” Wendy
+                          said, sighing. She was a tidy child. She explained in
+                          quite a matter-of-fact way that she thought Peter
+                          sometimes.
                         </p>
                       </div>
                     </div>
@@ -223,7 +239,10 @@
               </div>
             </div>
             <div class="image-container-bottom">
-              <img src="/assets/images/third-secion/city.png" alt="City" />
+              <img
+                src="assets/images/third-section/city.png"
+                alt="City image fotter second section"
+              />
             </div>
           </div>
         </div>
@@ -233,107 +252,129 @@
     <!-- Footer -->
     <footer class="background-footer position-relative">
       <div class="container">
-        <div class="col-sm-12 text-center text-footer-title">
-          <img src="/assets/images/third-secion/Lorem-Ipsum.svg" alt="title footer">
+        <div class="text-footer-title col-sm-12 text-center">
+          <img
+            src="assets/images/third-section/lorem-ipsum.svg"
+            alt="title footer"
+          />
         </div>
-        <div class="position-absolute bottom-0 start-50 translate-middle-x image-bottom">
-          <img src="/assets/images/third-secion/three-lines.png" alt="3 three lines" />
+        <div
+          class="
+            image-fotter-bottom
+            position-absolute
+            bottom-0
+            start-50
+            translate-middle-x
+          "
+        >
+          <img
+            src="assets/images/third-section/three-lines.png"
+            alt="3 three lines image fotter"
+          />
         </div>
-        <div class="col col-sm-12 pt-4 pb-4 copyright">
+        <div class="copyright col col-sm-12 pt-4 pb-4">
           <p>&copy 2021 Lorem Ipsum . All Rights Reserved.</p>
         </div>
       </div>
-      <div class="row justify-content-center text-center social-icons">
+      <div class="social-icons row justify-content-center text-center">
         <div class="col-12">
-          <span class="icon icon-facebook"></span>
-          <span class="icon icon-youtube"></span>
-          <span class="icon icon-linkedin"></span>
+          <span class="icon-section icon-facebook"></span>
+          <span class="icon-section icon-youtube"></span>
+          <span class="icon-section icon-linkedin"></span>
         </div>
       </div>
     </footer>
     <!-- /Footer -->
 
     <!-- Modal-form -->
+
     <div id="myModal" class="modal">
-      <div class="modal-content">
+      <div class="modal-content position-absolute top-50 start-50 translate-middle">
         <span class="close">&times;</span>
         <div class="container">
-          <div class="row banner">
-            <div class="col-md-12 text-banner-form">
-              <form class="row g-3 form-banner">
+          <div class="row justify-content-center">
+            <div class="modal-form col-md-12">
+              <form class="row g-3 needs-validation" id="success" novalidate>
                 <div class="col-md-6">
                   <input
                     type="text"
-                    class="form"
-                    id="inputFirstName"
+                    class="form input-modal form-control"
+                    id="validationFirstName"
                     placeholder="First Name*"
-                    aria-label="First name"
+                    title="The first name cannot contain numbers or symbols (!@#$%^&)"
+                    required
                   />
                 </div>
                 <div class="col-md-6">
                   <input
                     type="text"
-                    class="form"
-                    id="inpuLastName"
+                    class="form input-modal form-control"
+                    id="validationLastName"
                     placeholder="Last Name*"
-                    aria-label="Last name"
+                    title="The last name cannot contain numbers or symbols (!@#$%^&)"
+                    required
                   />
                 </div>
                 <div class="col-md-6">
                   <input
                     type="email"
-                    class="form"
-                    id="inputEmail"
+                    class="form input-modal form-control"
+                    id="validationEmail"
                     placeholder="Email*"
-                    aria-label="Last name"
+                    title="Valid E-mail name@example.com"
+                    required
                   />
                 </div>
                 <div class="col-md-6">
                   <input
                     type="text"
-                    class="form"
-                    id="inputJobTitle"
+                    class="form input-modal form-control"
+                    id="validationJobTitle"
                     placeholder="Job Title*"
+                    title="The job title cannot contain numbers or symbols (!@#$%^&)"
+                    required
                   />
                 </div>
                 <div class="col-md-6">
                   <input
                     type="text"
-                    class="form"
-                    id="inputCompany"
+                    class="form input-modal"
                     placeholder="Company Name"
                   />
                 </div>
                 <div class="col-md-6">
                   <input
                     type="text"
-                    class="form"
-                    id="inputWebsite"
+                    class="form input-modal"
                     placeholder="Website URL"
                   />
                 </div>
-
                 <div class="col-md-12">
                   <input
-                    type="number"
-                    class="form"
-                    id="inputRevenue"
+                    type="text"
+                    class="form input-modal"
                     placeholder="Annual Revenue"
                   />
                 </div>
-
                 <div class="col-12">
-                  <button type="submit" class="button btn-banner">SUBMIT</button>
+                  <button
+                    type="submit"
+                    id="successButtonModal"
+                    class="button btn-form btn-form-modal"
+                  >
+                    SUBMIT
+                  </button>
                 </div>
               </form>
-            </div>      
+            </div>
           </div>
         </div>
       </div>
-    </div>  
+    </div>
     <!-- /Modal-form -->
 
     <script src="js/bootstrap.js"></script>
-    <script src="js/modal-form.js"></script>
+    <script src="js/modal_form.js"></script>
+    <script src="js/validation_form.js"></script>
   </body>
 </html>

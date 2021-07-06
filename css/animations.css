@@ -1,0 +1,66 @@
+/* Start animation rocket image*/
+@keyframes animate-rocket-image {
+    from {
+      right: 79%;
+    }
+    to {
+      right: 25%;
+    }
+  }
+  @media only screen and (max-width: 1440px) {
+ 
+    @keyframes animate-rocket-image {
+      from {
+        right: 79%;
+      }
+      to {
+        right: 18%;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    @keyframes animate-rocket-image {
+      from {
+        right: 63%;
+      }
+      to {
+        right: 20%;
+      }
+    }
+  }
+  @media only screen and (max-width: 500px) {
+    @keyframes animate-rocket-image {
+      from {
+        right: 63%;
+      }
+      to {
+        right: 0%;
+      }
+    }
+  }
+/* Start animation rocket image*/
+
+/* Start animation seconn section*/
+@keyframes image-second-section-bottom {
+    from {
+      top: 0%;
+    }
+    to {
+      top: 46%;
+    }
+  }
+  @media only screen and (max-width: 768px) {
+    .image-second-section-left {
+      opacity: 0.7;
+    }
+  }
+  /* Add Animation */
+  @keyframes animate-image-second-section-left {
+    from {
+      top: 20%;
+    }
+    to {
+      top: 0%;
+    }
+  }
+/* End animation seconn section*/
